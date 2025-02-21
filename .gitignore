@@ -1,0 +1,38 @@
+# Ignore the entire Library folder (Unity-generated files)
+Library/
+
+# Ignore temporary build files
+Temp/
+Build/
+Builds/
+Logs/
+
+# Ignore auto-generated Visual Studio/JetBrains Rider files
+.vscode/
+*.csproj
+*.sln
+*.user
+*.unityproj
+
+# Ignore Unity crash/error logs
+sysinfo.txt
+*.pidb
+*.swp
+
+# Ignore package cache (can be regenerated)
+Packages/*/
+!Packages/manifest.json
+
+# Ignore local cache of the Asset Store
+AssetStoreTools*
+
+# Ignore Python/Virtual Environment (if using)
+.venv/
+venv/
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+Desktop.ini
