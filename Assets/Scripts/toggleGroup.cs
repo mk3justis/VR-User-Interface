@@ -10,7 +10,7 @@ public class Weekend : MonoBehaviour
     public List<Toggle> toggles = new();
     public TextMeshProUGUI result;
     private string choice;
-    // Start is called before the first frame update
+    
     void Start()
     {
         foreach (var toggle in toggles)
