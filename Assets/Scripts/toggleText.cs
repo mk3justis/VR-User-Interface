@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class ToggleText : MonoBehaviour
 {
-    public GameObject textObject; // Assign the Text GameObject in the Inspector
+    public GameObject textObject;
     public Image image;
     int i = 0;
     public void ToggleVisibility()
