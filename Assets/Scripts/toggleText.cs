@@ -1,18 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class toggleText : MonoBehaviour
+public class ToggleText : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject textObject; // Assign the Text GameObject in the Inspector
 
-    // Update is called once per frame
-    void Update()
+    public void ToggleVisibility()
     {
-        
+        textObject.SetActive(!textObject.activeSelf);
     }
 }
